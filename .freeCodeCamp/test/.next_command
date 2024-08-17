@@ -64,3 +64,6 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 touch salon.sh
 __vsc_prompt_cmd_original
 chmod +x salon.sh
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+touch database_estructure.sh
+git add .
